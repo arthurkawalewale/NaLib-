@@ -4,80 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68d28a92-35c5-4650-b3a3-429aa2a7a185" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/templates/catalogue/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/templates/catalogue/catalogue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalogue/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/templates/members/members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_app/templates/nalib_app/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/templates/nalib_transactions/lending.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nalib_transactions/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/malawi-government-coat-of-arms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/nalib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/registeration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaLib/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaLib/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaLib/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaLib/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_app/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_app/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_app/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue_app/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership_app/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership_app/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership_app/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership_app/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nalib_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/nalib_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions_app/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions_app/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions_app/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions_app/views.py" beforeDir="false" />
+    <list default="true" id="68d28a92-35c5-4650-b3a3-429aa2a7a185" name="Changes" comment="set up members, staff, and catalogue apps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,8 +81,16 @@
       <workItem from="1710782983138" duration="11725000" />
       <workItem from="1711033683970" duration="4884000" />
       <workItem from="1711053680286" duration="6408000" />
-      <workItem from="1711060281444" duration="13787000" />
+      <workItem from="1711060281444" duration="14315000" />
     </task>
+    <task id="LOCAL-00001" summary="set up members, staff, and catalogue apps">
+      <created>1711109839899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711109839899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,5 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="set up members, staff, and catalogue apps" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up members, staff, and catalogue apps" />
   </component>
 </project>
