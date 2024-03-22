@@ -9,8 +9,10 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-
+import os.path
 from pathlib import Path
+
+import nalib_app.apps
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qc$8y!zi)m&1$&6i7c!qo$yq%#jw5%n%dyk1hz2=ho7t=p*rvd'
+SECRET_KEY = 'django-insecure-0yejpq@uyvw3ctwq3p+jqkrl+hlqj+%kakv*3n#r$7fs+8=_-&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +33,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'nalib_transactions.apps.NalibTransactionsConfig',
+    'members.apps.MembersConfig',
+    'catalogue.apps.CatalogueConfig',
+    'nalib_app.apps.NalibAppConfig',
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -74,11 +81,21 @@ WSGI_APPLICATION = 'NaLib.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+}"""
+
+DATABASES = {
+    "default": {
+        "NAME": "nalib",
+        "ENGINE": "django.db.backends.postgresql",
+        "USER": "nalib",
+        "PASSWORD": "nalib2024",
+    },
+
 }
 
 
@@ -117,6 +134,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
