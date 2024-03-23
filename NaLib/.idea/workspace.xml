@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68d28a92-35c5-4650-b3a3-429aa2a7a185" name="Changes" comment="add background image to login screen">
+    <list default="true" id="68d28a92-35c5-4650-b3a3-429aa2a7a185" name="Changes" comment="Edit staff login in form">
+      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaLib/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaLib/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NaLib/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaLib/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue/templates/catalogue/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue/templates/catalogue/catalogue_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogue/templates/catalogue/catalogue.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue/templates/catalogue/catalogue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/members/templates/members/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members/templates/members/members.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nalib_app/templates/nalib_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/nalib_app/templates/nalib_app/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nalib_transactions/templates/nalib_transactions/lending.html" beforeDir="false" afterPath="$PROJECT_DIR$/nalib_transactions/templates/nalib_transactions/lending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/registeration.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/registeration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +92,9 @@
       <workItem from="1710782983138" duration="11725000" />
       <workItem from="1711033683970" duration="4884000" />
       <workItem from="1711053680286" duration="6408000" />
-      <workItem from="1711060281444" duration="14627000" />
+      <workItem from="1711060281444" duration="16059000" />
+      <workItem from="1711178791030" duration="40000" />
+      <workItem from="1711187058059" duration="24684000" />
     </task>
     <task id="LOCAL-00001" summary="set up members, staff, and catalogue apps">
       <created>1711109839899</created>
@@ -101,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711110336131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed route to the dashboard">
+      <created>1711110685766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711110685766</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edit staff login in form">
+      <created>1711193286835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711193286835</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +134,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="set up members, staff, and catalogue apps" />
     <MESSAGE value="add background image to login screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="add background image to login screen" />
+    <MESSAGE value="changed route to the dashboard" />
+    <MESSAGE value="Edit staff login in form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit staff login in form" />
   </component>
 </project>
