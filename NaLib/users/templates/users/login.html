@@ -15,14 +15,18 @@
   <body>
     <main class="w-100 bg-image- min-vh-100" style="background-image: url('{% static 'nalib.jpg' %}'); background-repeat: no-repeat; background-size: cover;">
         <div class="bg-black w-100 min-vh-100 bg-opacity-75">
-            <div class="container d-flex flex-column justify-content-center min-vh-100 py-5">
+            <div class="container d-flex flex-column justify-content-center min-vh-100 py-3">
                 <div class="row">
                     <div class="col-sm-10 col-md-7 col-lg-5 mx-auto d-table h-100">
                         <div class="align-middle d-flex flex-column justify-content-center h-100">
 
-                            <div class="text-center my-4">
-                                <img class="mb-5" src="{% static 'malawi-government-coat-of-arms.png' %}" style="width: 100px;" alt="malawi govt coat of arms"/>
-                                <h1 class="h4 text-uppercase text-white fw-bolder">NaLiB Web Portal</h1>
+                            <div class="text-center my-4 row">
+                                <div class="col-4">
+                                    <img class="mb-3" src="{% static 'malawi-government-coat-of-arms.png' %}" style="width: 100px;" alt="malawi govt coat of arms"/>
+                                </div>
+                                <div class="col-8 mt-4">
+                                    <h1 class="justify-content-center h3 text-uppercase text-white fw-bolder col">NaLiB Web Portal</h1>
+                                </div>
                             </div>
 
                             <div class="card bg-white bg-opacity-75">
@@ -52,17 +56,9 @@
                                                 @enderror-->
                                             </div>
                                             <div class="text-center mt-3 mb-3">
-                                                <button type="submit" class="btn btn-md btn-primary"><i class="fa-solid fa-sign-in"></i> Sign Me In</button>
+                                                <button type="submit" class="btn btn-md btn-primary"><i class="fa-solid fa-sign-in"></i> Log In</button>
                                             </div>
 
-                                            <div class="text-center mb-3">
-                                                <h5 class="mt-2 fs-6">
-                                                    <a class="text-danger" href="">
-                                                        Forgot your password?
-                                                    </a>
-                                                </h5>
-                                                <p class="text-inverse"><h5 class="fs-6">Having trouble logging in?</h5> Visit the ICT Office</p>
-                                            </div>
                                         </form>
                                     </div>
                                 </div>
